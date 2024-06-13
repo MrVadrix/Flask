@@ -27,7 +27,7 @@ def random_fact():
     return f'<p>{random.choice(facts_list)}</p>'
 
 @app.route("/ПУТЬ")
-def НАЗВАНИЕ_ФУНКЦИИ():
+def coin_toss():
     return f"<p>монетка упала: {coin_side}</p>"
 
 app.run(debug=True)
